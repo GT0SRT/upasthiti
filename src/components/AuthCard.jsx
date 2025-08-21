@@ -4,7 +4,7 @@ import { FaRegCircle, FaRegDotCircle } from "react-icons/fa";
 import { PiStudentBold } from "react-icons/pi";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { auth, db } from "../Components/firebase";
+import { auth, db } from "../components/firebase";
 import { setDoc, doc, getDoc } from "firebase/firestore";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword} from "firebase/auth";
 import useUserStore from "../store/userStore";
