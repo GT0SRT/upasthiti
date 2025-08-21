@@ -1,12 +1,36 @@
-# React + Vite
+# Attendance Management App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **attendance tracking system** built with **React, Firebase, Zustand, and TailwindCSS**.  
+This app helps instructors manage student groups, mark attendance (Present / Absent ), and provides students with their own attendance insights.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+✅ **User Authentication** (Firebase Auth)  
+✅ **Instructor & Student Roles**  
+✅ **Group Management** (create / join groups via invite codes)  
+✅ **Attendance Tracking**  
+- Mark students as **Present / Absent / Holiday / Clear**
+- **Bulk Actions** (Mark all Present / all Absent)
+- Updates both **Instructor’s record** and **Student’s record**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Real-time Sync** with Firebase Firestore  
+✅ **Attendance Rate Calculation**  
+- Auto calculates `rate = (Present / (Present + Absent)) × 100`  
+
+✅ **Responsive UI** with TailwindCSS  
+
+---
+
+## 🖥️ Tech Stack  
+
+- ⚛️ **React** – Frontend  
+- 🎨 **TailwindCSS** – Styling  
+- 🔥 **Firebase Firestore** – Database  
+- 🔐 **Firebase Auth** – Authentication  
+- 🪝 **Zustand** – State management  
+- 🔔 **React Toast** – Notifications
+
+---
+
