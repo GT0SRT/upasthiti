@@ -38,7 +38,6 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/dashboard" element={<PrivateRoute><DashboardPage /></PrivateRoute>} />
-        <Route path="/attendance" element={<PrivateRoute><AttendancePage /></PrivateRoute>} />
         <Route path="/group" element={<PrivateRoute><MyGroup /></PrivateRoute>} />
         <Route path="/profile" element={<PrivateRoute><MyProfile /></PrivateRoute>} />
       </Routes>
