@@ -5,7 +5,7 @@ import { FaPlus } from 'react-icons/fa6'
 import SubjectCard from '../components/SubjectCard'
 import useUserStore from '../store/userStore'
 import { doc, updateDoc } from 'firebase/firestore'
-import { db } from '../Components/firebase'
+import { db } from '../components/firebase'
 import { toast } from 'react-toastify'
 
 const MyGroup = () => {
