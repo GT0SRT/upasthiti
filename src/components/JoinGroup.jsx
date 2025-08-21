@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db } from "../Components/firebase";
+import { db } from "../components/firebase";
 import { collection, getDocs, doc, updateDoc, getDoc, arrayUnion } from "firebase/firestore";
 import { toast } from "react-toastify";
 import useUserStore from "../store/userStore";
