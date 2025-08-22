@@ -34,3 +34,16 @@ This app helps instructors manage student groups, mark attendance (Present / Abs
 
 ---
 
+## App-preview
+
+<p align="center">
+  <img src="public/signin.png" alt="signin signup page" width="500"/>
+  <img src="public/user_dashboard.png" alt="user dashboard img" width="500"/>
+  <img src="public/usermygrp.png" alt="my group page" width="500"/>
+  <img src="public/creategroup.png" alt="create group card page" width="500"/>
+  <img src="public/attendance_calendar.png" alt="attendace calendar page" width="500"/>
+  <img src="public/admin_group.png" alt="admin my group page page" width="500"/>
+  <img src="public/take_attendance.png" alt="take attendance for admin page" width="500"/>
+</p>
+
+---
